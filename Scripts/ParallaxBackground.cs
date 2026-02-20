@@ -13,7 +13,7 @@ public class ParallaxBackground : MonoBehaviour
     {
         sprite = GetComponent<SpriteRenderer>().sprite;
         widthBg = sprite.texture.width / sprite.pixelsPerUnit;
-        Debug.Log(widthBg);
+        Debug.Log(widthBg); 
 
     }
 
